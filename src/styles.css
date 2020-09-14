@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @responsive {
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+        }
+    
+        .text-shadow-md {
+            text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+        }
+    
+        .text-shadow-lg {
+            text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
+        }
+    
+        .text-shadow-none {
+            text-shadow: none;
+        }
+
+        .fullHeight {
+            height: 100%;
+        }
+    }
+  }
+
+.infoShout {
+    @apply font-bold mt-6 pb-2 border-b border-gray-500;
+}
+
+.card {
+    @apply bg-white rounded overflow-hidden shadow cursor-pointer;
+}
+
+.badge {
+    @apply bg-primary text-white text-sm uppercase font-bold rounded-full  right-0 top-0 -mt-8 p-1 absolute shadow-md;
+}
+
+.btn {
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+}
+
+.closeBtn {
+    @apply border-2 border-white flex justify-end bg-red-600 text-white cursor-pointer;
+}

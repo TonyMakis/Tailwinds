@@ -1,0 +1,24 @@
+{
+  "name": "tailwinds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwind build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyMakis/tailwinds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyMakis/tailwinds/issues"
+  },
+  "homepage": "https://github.com/TonyMakis/tailwinds#readme",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "tailwindcss": "^1.8.8"
+  }
+}
